@@ -612,6 +612,9 @@ header .navbar a:hover {
     .order .row  form .inputBox input {
         width: 100%;
     }
+    .whatsapp-container .whatsapp-btn{
+        font-size: 50px;
+    }
 }
 
 
