@@ -503,6 +503,8 @@ header .navbar a:hover {
     color: var(--red);
 }
 
+
+/*==== SCROLL TOP ===*/
 #scroll-top {
     position: fixed;
     top: 120%;
@@ -522,7 +524,33 @@ header .navbar a:hover {
 
 
 
+/*====Whatsapp ===*/
+.whatsapp-container{
+    position: fixed;
+    right: 7px;
+    bottom: -80px;
+    opacity: 0;
+    padding: 24px;
+    animation: fade-up 1000ms forwards;
+    animation-delay: 1000ms;
+}
 
+@keyframes fade-up{
+    100% {
+        bottom: 110px;
+        opacity: 1;
+    }
+}
+
+.whatsapp-container .whatsapp-btn{
+    font-size: 60px;
+    color: #25d366;
+    display: inline-block;
+    transition: all 400ms;
+}
+.whatsapp-container .whatsapp-btn:hover{
+    transform: scale(1.2);
+}
 
 
 
